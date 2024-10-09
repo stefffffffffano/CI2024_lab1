@@ -72,3 +72,12 @@ Last but not least, parameters that influence the problem have been adapted base
     strength = BASE_STRENGTH * (1+DENSITY)
 ```
 Also in the code of the proposed algorithm there's an adaptation of the strength based on the density, but it's explained before. 
+Costs and number of steps for different instances: 
+| Instance | Cost | Number of steps |
+| --------- | --------- | --------- |
+| UNIVERSE_SIZE = 100, SET_SIZE = 10, DENSITY = 0.2            | 265.9995711684986   | 333   |
+| UNIVERSE_SIZE = 1_000, SET_SIZE = 100, DENSITY =  0.2        | 7947.6832760372445  | 728    |
+| UNIVERSE_SIZE = 10_000 , SET_SIZE = 1_000 , DENSITY =  0.2   | 170034.64124024883  | 1332    |
+| UNIVERSE_SIZE = 100_000 , SET_SIZE = 10_000 , DENSITY = 0.1  | 2437831.577057764   | 2116    |
+| UNIVERSE_SIZE = 100_000 , SET_SIZE = 10_000 , DENSITY = 0.2  | 2637136.1952890246   | 2116    |
+| UNIVERSE_SIZE = 100_000 , SET_SIZE = 10_000 , DENSITY = 0.3  | 2520546.5410716645 | 2116    |
